@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A26D5F61F980B7B00F824E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26D5F51F980B7B00F824E1 /* AppDelegate.swift */; };
+		7A26D5F81F980B7B00F824E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26D5F71F980B7B00F824E1 /* ViewController.swift */; };
+		7A26D5FB1F980B7B00F824E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A26D5F91F980B7B00F824E1 /* Main.storyboard */; };
+		7A26D5FD1F980B7B00F824E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A26D5FC1F980B7B00F824E1 /* Assets.xcassets */; };
+		7A26D6001F980B7B00F824E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A26D5FE1F980B7B00F824E1 /* LaunchScreen.storyboard */; };
+		7A26D60B1F980B7B00F824E1 /* Xavier_College_PreparatoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26D60A1F980B7B00F824E1 /* Xavier_College_PreparatoryTests.swift */; };
+		7A26D6161F980B7B00F824E1 /* Xavier_College_PreparatoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26D6151F980B7B00F824E1 /* Xavier_College_PreparatoryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A26D6071F980B7B00F824E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A26D5EA1F980B7B00F824E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A26D5F11F980B7B00F824E1;
+			remoteInfo = "Xavier College Preparatory";
+		};
+		7A26D6121F980B7B00F824E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A26D5EA1F980B7B00F824E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A26D5F11F980B7B00F824E1;
+			remoteInfo = "Xavier College Preparatory";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A26D5F21F980B7B00F824E1 /* Xavier College Preparatory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xavier College Preparatory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A26D5F51F980B7B00F824E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A26D5F71F980B7B00F824E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A26D5FA1F980B7B00F824E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A26D5FC1F980B7B00F824E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A26D5FF1F980B7B00F824E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A26D6011F980B7B00F824E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A26D6061F980B7B00F824E1 /* Xavier College PreparatoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xavier College PreparatoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A26D60A1F980B7B00F824E1 /* Xavier_College_PreparatoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xavier_College_PreparatoryTests.swift; sourceTree = "<group>"; };
+		7A26D60C1F980B7B00F824E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A26D6111F980B7B00F824E1 /* Xavier College PreparatoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xavier College PreparatoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A26D6151F980B7B00F824E1 /* Xavier_College_PreparatoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xavier_College_PreparatoryUITests.swift; sourceTree = "<group>"; };
+		7A26D6171F980B7B00F824E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A26D5EF1F980B7B00F824E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A26D6031F980B7B00F824E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A26D60E1F980B7B00F824E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A26D5E91F980B7B00F824E1 = {
+			isa = PBXGroup;
+			children = (
+				7A26D5F41F980B7B00F824E1 /* Xavier College Preparatory */,
+				7A26D6091F980B7B00F824E1 /* Xavier College PreparatoryTests */,
+				7A26D6141F980B7B00F824E1 /* Xavier College PreparatoryUITests */,
+				7A26D5F31F980B7B00F824E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A26D5F31F980B7B00F824E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A26D5F21F980B7B00F824E1 /* Xavier College Preparatory.app */,
+				7A26D6061F980B7B00F824E1 /* Xavier College PreparatoryTests.xctest */,
+				7A26D6111F980B7B00F824E1 /* Xavier College PreparatoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A26D5F41F980B7B00F824E1 /* Xavier College Preparatory */ = {
+			isa = PBXGroup;
+			children = (
+				7A26D5F51F980B7B00F824E1 /* AppDelegate.swift */,
+				7A26D5F71F980B7B00F824E1 /* ViewController.swift */,
+				7A26D5F91F980B7B00F824E1 /* Main.storyboard */,
+				7A26D5FC1F980B7B00F824E1 /* Assets.xcassets */,
+				7A26D5FE1F980B7B00F824E1 /* LaunchScreen.storyboard */,
+				7A26D6011F980B7B00F824E1 /* Info.plist */,
+			);
+			path = "Xavier College Preparatory";
+			sourceTree = "<group>";
+		};
+		7A26D6091F980B7B00F824E1 /* Xavier College PreparatoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A26D60A1F980B7B00F824E1 /* Xavier_College_PreparatoryTests.swift */,
+				7A26D60C1F980B7B00F824E1 /* Info.plist */,
+			);
+			path = "Xavier College PreparatoryTests";
+			sourceTree = "<group>";
+		};
+		7A26D6141F980B7B00F824E1 /* Xavier College PreparatoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A26D6151F980B7B00F824E1 /* Xavier_College_PreparatoryUITests.swift */,
+				7A26D6171F980B7B00F824E1 /* Info.plist */,
+			);
+			path = "Xavier College PreparatoryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A26D5F11F980B7B00F824E1 /* Xavier College Preparatory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A26D61A1F980B7B00F824E1 /* Build configuration list for PBXNativeTarget "Xavier College Preparatory" */;
+			buildPhases = (
+				7A26D5EE1F980B7B00F824E1 /* Sources */,
+				7A26D5EF1F980B7B00F824E1 /* Frameworks */,
+				7A26D5F01F980B7B00F824E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Xavier College Preparatory";
+			productName = "Xavier College Preparatory";
+			productReference = 7A26D5F21F980B7B00F824E1 /* Xavier College Preparatory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A26D6051F980B7B00F824E1 /* Xavier College PreparatoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A26D61D1F980B7B00F824E1 /* Build configuration list for PBXNativeTarget "Xavier College PreparatoryTests" */;
+			buildPhases = (
+				7A26D6021F980B7B00F824E1 /* Sources */,
+				7A26D6031F980B7B00F824E1 /* Frameworks */,
+				7A26D6041F980B7B00F824E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A26D6081F980B7B00F824E1 /* PBXTargetDependency */,
+			);
+			name = "Xavier College PreparatoryTests";
+			productName = "Xavier College PreparatoryTests";
+			productReference = 7A26D6061F980B7B00F824E1 /* Xavier College PreparatoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A26D6101F980B7B00F824E1 /* Xavier College PreparatoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A26D6201F980B7B00F824E1 /* Build configuration list for PBXNativeTarget "Xavier College PreparatoryUITests" */;
+			buildPhases = (
+				7A26D60D1F980B7B00F824E1 /* Sources */,
+				7A26D60E1F980B7B00F824E1 /* Frameworks */,
+				7A26D60F1F980B7B00F824E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A26D6131F980B7B00F824E1 /* PBXTargetDependency */,
+			);
+			name = "Xavier College PreparatoryUITests";
+			productName = "Xavier College PreparatoryUITests";
+			productReference = 7A26D6111F980B7B00F824E1 /* Xavier College PreparatoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A26D5EA1F980B7B00F824E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Xavier College Preparatory";
+				TargetAttributes = {
+					7A26D5F11F980B7B00F824E1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7A26D6051F980B7B00F824E1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A26D5F11F980B7B00F824E1;
+					};
+					7A26D6101F980B7B00F824E1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A26D5F11F980B7B00F824E1;
+					};
+				};
+			};
+			buildConfigurationList = 7A26D5ED1F980B7B00F824E1 /* Build configuration list for PBXProject "Xavier College Preparatory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A26D5E91F980B7B00F824E1;
+			productRefGroup = 7A26D5F31F980B7B00F824E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A26D5F11F980B7B00F824E1 /* Xavier College Preparatory */,
+				7A26D6051F980B7B00F824E1 /* Xavier College PreparatoryTests */,
+				7A26D6101F980B7B00F824E1 /* Xavier College PreparatoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A26D5F01F980B7B00F824E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A26D6001F980B7B00F824E1 /* LaunchScreen.storyboard in Resources */,
+				7A26D5FD1F980B7B00F824E1 /* Assets.xcassets in Resources */,
+				7A26D5FB1F980B7B00F824E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A26D6041F980B7B00F824E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A26D60F1F980B7B00F824E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A26D5EE1F980B7B00F824E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A26D5F81F980B7B00F824E1 /* ViewController.swift in Sources */,
+				7A26D5F61F980B7B00F824E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A26D6021F980B7B00F824E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A26D60B1F980B7B00F824E1 /* Xavier_College_PreparatoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A26D60D1F980B7B00F824E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A26D6161F980B7B00F824E1 /* Xavier_College_PreparatoryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A26D6081F980B7B00F824E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A26D5F11F980B7B00F824E1 /* Xavier College Preparatory */;
+			targetProxy = 7A26D6071F980B7B00F824E1 /* PBXContainerItemProxy */;
+		};
+		7A26D6131F980B7B00F824E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A26D5F11F980B7B00F824E1 /* Xavier College Preparatory */;
+			targetProxy = 7A26D6121F980B7B00F824E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A26D5F91F980B7B00F824E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A26D5FA1F980B7B00F824E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A26D5FE1F980B7B00F824E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A26D5FF1F980B7B00F824E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A26D6181F980B7B00F824E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A26D6191F980B7B00F824E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A26D61B1F980B7B00F824E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Xavier College Preparatory/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XCP.Xavier-College-Preparatory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7A26D61C1F980B7B00F824E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Xavier College Preparatory/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XCP.Xavier-College-Preparatory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7A26D61E1F980B7B00F824E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Xavier College PreparatoryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XCP.Xavier-College-PreparatoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xavier College Preparatory.app/Xavier College Preparatory";
+			};
+			name = Debug;
+		};
+		7A26D61F1F980B7B00F824E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Xavier College PreparatoryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XCP.Xavier-College-PreparatoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xavier College Preparatory.app/Xavier College Preparatory";
+			};
+			name = Release;
+		};
+		7A26D6211F980B7B00F824E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Xavier College PreparatoryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XCP.Xavier-College-PreparatoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Xavier College Preparatory";
+			};
+			name = Debug;
+		};
+		7A26D6221F980B7B00F824E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Xavier College PreparatoryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XCP.Xavier-College-PreparatoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Xavier College Preparatory";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A26D5ED1F980B7B00F824E1 /* Build configuration list for PBXProject "Xavier College Preparatory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A26D6181F980B7B00F824E1 /* Debug */,
+				7A26D6191F980B7B00F824E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A26D61A1F980B7B00F824E1 /* Build configuration list for PBXNativeTarget "Xavier College Preparatory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A26D61B1F980B7B00F824E1 /* Debug */,
+				7A26D61C1F980B7B00F824E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A26D61D1F980B7B00F824E1 /* Build configuration list for PBXNativeTarget "Xavier College PreparatoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A26D61E1F980B7B00F824E1 /* Debug */,
+				7A26D61F1F980B7B00F824E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A26D6201F980B7B00F824E1 /* Build configuration list for PBXNativeTarget "Xavier College PreparatoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A26D6211F980B7B00F824E1 /* Debug */,
+				7A26D6221F980B7B00F824E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A26D5EA1F980B7B00F824E1 /* Project object */;
+}
