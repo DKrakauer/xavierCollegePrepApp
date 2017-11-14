@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A08D1481FA145B400B84664 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08D1471FA145B400B84664 /* HomeViewController.swift */; };
 		7A26D5F61F980B7B00F824E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26D5F51F980B7B00F824E1 /* AppDelegate.swift */; };
 		7A26D5F81F980B7B00F824E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26D5F71F980B7B00F824E1 /* ViewController.swift */; };
 		7A26D5FB1F980B7B00F824E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A26D5F91F980B7B00F824E1 /* Main.storyboard */; };
@@ -14,6 +15,17 @@
 		7A26D6001F980B7B00F824E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A26D5FE1F980B7B00F824E1 /* LaunchScreen.storyboard */; };
 		7A26D60B1F980B7B00F824E1 /* Xavier_College_PreparatoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26D60A1F980B7B00F824E1 /* Xavier_College_PreparatoryTests.swift */; };
 		7A26D6161F980B7B00F824E1 /* Xavier_College_PreparatoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26D6151F980B7B00F824E1 /* Xavier_College_PreparatoryUITests.swift */; };
+		7A26D62E1F980BF200F824E1 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A26D6241F980BF200F824E1 /* OpenSans-Bold.ttf */; };
+		7A26D62F1F980BF200F824E1 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A26D6251F980BF200F824E1 /* OpenSans-BoldItalic.ttf */; };
+		7A26D6301F980BF200F824E1 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A26D6261F980BF200F824E1 /* OpenSans-ExtraBold.ttf */; };
+		7A26D6311F980BF200F824E1 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A26D6271F980BF200F824E1 /* OpenSans-ExtraBoldItalic.ttf */; };
+		7A26D6321F980BF200F824E1 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A26D6281F980BF200F824E1 /* OpenSans-Italic.ttf */; };
+		7A26D6331F980BF200F824E1 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A26D6291F980BF200F824E1 /* OpenSans-Light.ttf */; };
+		7A26D6341F980BF200F824E1 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A26D62A1F980BF200F824E1 /* OpenSans-LightItalic.ttf */; };
+		7A26D6351F980BF200F824E1 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A26D62B1F980BF200F824E1 /* OpenSans-Regular.ttf */; };
+		7A26D6361F980BF200F824E1 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A26D62C1F980BF200F824E1 /* OpenSans-Semibold.ttf */; };
+		7A26D6371F980BF200F824E1 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A26D62D1F980BF200F824E1 /* OpenSans-SemiboldItalic.ttf */; };
+		7A7C5FF01FAA7F7A00BE6CBD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C5FEF1FAA7F7A00BE6CBD /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A08D1471FA145B400B84664 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7A26D5F21F980B7B00F824E1 /* Xavier College Preparatory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xavier College Preparatory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A26D5F51F980B7B00F824E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A26D5F71F980B7B00F824E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,17 @@
 		7A26D6111F980B7B00F824E1 /* Xavier College PreparatoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xavier College PreparatoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A26D6151F980B7B00F824E1 /* Xavier_College_PreparatoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xavier_College_PreparatoryUITests.swift; sourceTree = "<group>"; };
 		7A26D6171F980B7B00F824E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A26D6241F980BF200F824E1 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		7A26D6251F980BF200F824E1 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		7A26D6261F980BF200F824E1 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		7A26D6271F980BF200F824E1 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		7A26D6281F980BF200F824E1 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		7A26D6291F980BF200F824E1 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		7A26D62A1F980BF200F824E1 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		7A26D62B1F980BF200F824E1 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		7A26D62C1F980BF200F824E1 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		7A26D62D1F980BF200F824E1 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		7A7C5FEF1FAA7F7A00BE6CBD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +124,10 @@
 				7A26D5F51F980B7B00F824E1 /* AppDelegate.swift */,
 				7A26D5F71F980B7B00F824E1 /* ViewController.swift */,
 				7A26D5F91F980B7B00F824E1 /* Main.storyboard */,
+				7A08D1471FA145B400B84664 /* HomeViewController.swift */,
 				7A26D5FC1F980B7B00F824E1 /* Assets.xcassets */,
+				7A7C5FEF1FAA7F7A00BE6CBD /* GoogleService-Info.plist */,
+				7A26D6231F980BF200F824E1 /* Open Sans */,
 				7A26D5FE1F980B7B00F824E1 /* LaunchScreen.storyboard */,
 				7A26D6011F980B7B00F824E1 /* Info.plist */,
 			);
@@ -123,6 +150,23 @@
 				7A26D6171F980B7B00F824E1 /* Info.plist */,
 			);
 			path = "Xavier College PreparatoryUITests";
+			sourceTree = "<group>";
+		};
+		7A26D6231F980BF200F824E1 /* Open Sans */ = {
+			isa = PBXGroup;
+			children = (
+				7A26D6241F980BF200F824E1 /* OpenSans-Bold.ttf */,
+				7A26D6251F980BF200F824E1 /* OpenSans-BoldItalic.ttf */,
+				7A26D6261F980BF200F824E1 /* OpenSans-ExtraBold.ttf */,
+				7A26D6271F980BF200F824E1 /* OpenSans-ExtraBoldItalic.ttf */,
+				7A26D6281F980BF200F824E1 /* OpenSans-Italic.ttf */,
+				7A26D6291F980BF200F824E1 /* OpenSans-Light.ttf */,
+				7A26D62A1F980BF200F824E1 /* OpenSans-LightItalic.ttf */,
+				7A26D62B1F980BF200F824E1 /* OpenSans-Regular.ttf */,
+				7A26D62C1F980BF200F824E1 /* OpenSans-Semibold.ttf */,
+				7A26D62D1F980BF200F824E1 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = "Open Sans";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +276,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A26D6361F980BF200F824E1 /* OpenSans-Semibold.ttf in Resources */,
+				7A26D6371F980BF200F824E1 /* OpenSans-SemiboldItalic.ttf in Resources */,
 				7A26D6001F980B7B00F824E1 /* LaunchScreen.storyboard in Resources */,
+				7A26D6351F980BF200F824E1 /* OpenSans-Regular.ttf in Resources */,
+				7A26D6321F980BF200F824E1 /* OpenSans-Italic.ttf in Resources */,
+				7A26D6311F980BF200F824E1 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				7A26D5FD1F980B7B00F824E1 /* Assets.xcassets in Resources */,
+				7A26D6341F980BF200F824E1 /* OpenSans-LightItalic.ttf in Resources */,
+				7A26D62E1F980BF200F824E1 /* OpenSans-Bold.ttf in Resources */,
 				7A26D5FB1F980B7B00F824E1 /* Main.storyboard in Resources */,
+				7A26D6331F980BF200F824E1 /* OpenSans-Light.ttf in Resources */,
+				7A26D62F1F980BF200F824E1 /* OpenSans-BoldItalic.ttf in Resources */,
+				7A26D6301F980BF200F824E1 /* OpenSans-ExtraBold.ttf in Resources */,
+				7A7C5FF01FAA7F7A00BE6CBD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +316,7 @@
 			files = (
 				7A26D5F81F980B7B00F824E1 /* ViewController.swift in Sources */,
 				7A26D5F61F980B7B00F824E1 /* AppDelegate.swift in Sources */,
+				7A08D1481FA145B400B84664 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +561,7 @@
 				7A26D61C1F980B7B00F824E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A26D61D1F980B7B00F824E1 /* Build configuration list for PBXNativeTarget "Xavier College PreparatoryTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +570,7 @@
 				7A26D61F1F980B7B00F824E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A26D6201F980B7B00F824E1 /* Build configuration list for PBXNativeTarget "Xavier College PreparatoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +579,7 @@
 				7A26D6221F980B7B00F824E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
